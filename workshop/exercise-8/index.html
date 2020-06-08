@@ -1,1 +1,60 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form>
+      <section>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" required/>
+
+        <label for="password">password</label>
+        <input id="password" name="password" type="password" required/>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required/>
+      </section>
+      <section>
+        <p>Which taxi do you require?</p>
+
+        <input name="taxi" id="car" type="radio" value="car" required/>
+        <label for="car">Car</label>
+
+        <input name="taxi" id="van" type="radio" value="van" required/>
+        <label for="van">Van</label>
+
+        <input name="taxi" id="tuktuk" type="radio" value="tuktuk" required/>
+        <label for="tuktuk">Tuk Tuk</label>
+      </section>
+      <section>
+        <p>Extras</p>
+
+        <input id="baby-seat" name="baby-seat" type="checkbox" value="baby-seat"/>
+        <label>Baby Seat</label>
+
+        <input id="wheelchair" name="wheelchair" type="checkbox" value="wheelchair"/>
+        <label>Wheelchair Access<label/>
+
+        <input id="stock" name="stock" type="checkbox" value="stock"/>
+        <label>Stock Tip</label>
+      </section>
+      <section>
+        <label for="pickup">Pickup</label>
+        <select name="pickup">
+          <option selected="selected" value="null" disabled>Select One</option>
+          <option value="taxi">Taxi Office</option>
+          <option value="town-hall">Town Hall</option>
+          <option value="null">We'll Guess!</option>
+        </select>
+      </section>
+      <section>
+        <label for="special">Special</label>
+        <textarea name="special"></textarea>
+      </section>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
