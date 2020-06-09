@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ true ] `<div><span>hello</div></span>`
+a) [ false ] `<div><span>hello</div></span>`
 
-b) [ true ]
+b) [ false ]
 
 ```html
 <ul>
@@ -38,10 +38,10 @@ c) You want to sell designer hats. You need to receive orders from the user.
 <form></form>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
-You technically can but it would not be good syntax.
+No, this would be bad syntax and can lead to unexpected behaviour
 
 ## Q5 - What is the most generic tag you can use?
-<body></body>
+<div></div>
 
 ## Q6 - What do the following achronyms stand for?
 
@@ -67,7 +67,7 @@ g) `td`
 Table data
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
-<table></table>
+<tr></tr>
 
 ## Q8 - What is the difference between td and th?
 The td is usually for the data of the table, where
@@ -77,14 +77,14 @@ the th is for the headers.
 h1
 
 ## Q10 - In which situation can you use self closing tags?
-<img/>
+Tags that don't require content, such as <img/>
 
 ## Q11 - What is autofilling and why is it important?
 Autofilling is how a page can fill in a form based on previous
 interactions.
 
 ## Q12 - Which attributes are always present in an img element?
-An 'alt=''
+An alt='' and a src=''
 
 ## Q13 - Which attribute is always present for an anchor tag?
-An 'alt=''
+An alt='' and an href=''
